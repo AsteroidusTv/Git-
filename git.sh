@@ -3,13 +3,13 @@
 echo "Message for commit : "
 read message
 
-echo "Enter branch name (default: main) : "
+echo "Enter branch name (default: master) : "
 read branch
 
-# Vérifier si branch est vide, alors utiliser la branche par défaut "main"
+
 if [ -z "$branch" ]
 then
-    branch="main"
+    branch="master"
 fi
 
 cd /home/achille/Documents/Programation/Html/Cescosite/
