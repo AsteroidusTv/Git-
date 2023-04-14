@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=Git
+Icon=/home/achille/Documents/Programation/Html/bash/Git-/git.pngs
+Exec=/home/achille/Documents/Programation/Html/bash/Git-/git.sh
