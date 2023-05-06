@@ -1,21 +1,11 @@
-#!/bin/bash
+	 #!/bin/bash
 
+echo "What file"
+read file
 echo "Message for commit : "
 read message
-
-echo "Enter branch name (default: master) : "
-read branch
-
-
-if [ -z "$branch" ]
-then
-    branch="master"
-fi
-
-cd /home/achille/Documents/Programation/Html/Cescosite/
-git checkout $branch
+cd /home/achille/Documents/Projects/Html/$file/
 git add .
-git commit -m "$message"
+git commit -m "$message" 
 echo $message
-git push origin $branch
-
+git push
