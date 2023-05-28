@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Git
+Comment=Do git add git commit and git push
+Exec=/home/achille/Documents/Projects/Bash/Git-/main.sh
+Icon=/home/achille/Pictures/Icons/git.png
+X-GNOME-UsesNotifications=false
+Type=Application
+Terminal=true
+
